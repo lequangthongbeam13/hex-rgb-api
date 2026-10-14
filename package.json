@@ -1,0 +1,22 @@
+{
+  "name": "hex-rgb-api",
+  "version": "1.0.0",
+  "description": "A small hex-to-RGB library and Express REST API with unit and integration tests.",
+  "main": "src/hexToRgb.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha",
+    "test:unit": "mocha test/hexToRgb.test.js",
+    "test:integration": "mocha test/api.test.js"
+  },
+  "author": "Quang Thong Le",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^6.0.1",
+    "mocha": "^11.7.2",
+    "supertest": "^7.1.4"
+  }
+}

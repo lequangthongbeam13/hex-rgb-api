@@ -1,0 +1,10 @@
+# Dependencies (reinstall with npm install)
+node_modules/
+
+# Environment and OS files
+.env
+.DS_Store
+
+# Logs and coverage output
+npm-debug.log*
+coverage/
